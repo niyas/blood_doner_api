@@ -1,0 +1,12 @@
+{
+  "db": {
+    "host": "ds161148.mlab.com",
+    "port": 61148,
+    "url": "mongodb://admin:n1ya5um1@ds161148.mlab.com:61148/bloodbank",
+    "database": "bloodbank",
+    "password": "n1ya5um1",
+    "name": "db",
+    "user": "admin",
+    "connector": "mongodb"
+  }
+}

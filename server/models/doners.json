@@ -1,0 +1,76 @@
+{
+  "name": "doners",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "DateOfBirth": {
+      "type": "date",
+      "required": true
+    },
+    "Age": {
+      "type": "number",
+      "required": true
+    },
+    "Weight": {
+      "type": "number"
+    },
+    "Mobile": {
+      "type": "string",
+      "required": true
+    },
+    "Gender": {
+      "type": "string",
+      "required": true
+    },
+    "Address1": {
+      "type": "string",
+      "required": true
+    },
+    "City": {
+      "type": "string",
+      "required": true
+    },
+    "State": {
+      "type": "string"
+    },
+    "BloodGroup": {
+      "type": "string",
+      "required": true
+    },
+    "LastDonatedDate": {
+      "type": "date"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean",
+      "required": true
+    },
+    "isApproved": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$unauthenticated",
+      "permission": "DENY"
+    }
+  ],
+  "methods": {}
+}
