@@ -47,6 +47,9 @@
       "type": "string",
       "required": true
     },
+    "PreferredLocation": {
+      "type": "string"
+    },
     "LastDonatedDate": {
       "type": "date"
     },
